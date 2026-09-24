@@ -1,0 +1,25 @@
+#prod()
+import numpy as np
+# arr = np.array([2,3,4,5])
+# print(np.sum(arr))
+# print(np.prod(arr))
+# print(np.max(arr))
+# arr2 = np.array([[1,2],[3,4]])
+# print(np.prod(arr2))
+# print(np.prod(arr2,axis = 0))
+# print(np.prod(arr2,axis = 1))
+arr = np.array([
+    [2, 4, 6],
+    [1, 3, 5]
+])
+# print(np.sum(arr))
+# print(np.prod(arr))
+# print(np.sum(arr,axis = 1))
+# print(np.prod(arr,axis = 0))
+# print(np.mean(arr,axis = 0))
+# print(np.mean(arr,axis = 1))
+# print(np.mean(arr))
+print(np.argmin(arr))
+print(np.min(arr))
+print(np.argmax(arr))
+print(np.max(arr))

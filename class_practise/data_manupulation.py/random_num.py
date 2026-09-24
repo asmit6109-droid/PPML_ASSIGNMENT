@@ -1,0 +1,21 @@
+import numpy as np
+# # a = np.random.randint(1,101,6)
+# # print(a)
+# b = np.random.randint(1,90,(4,4))
+# print(b)
+# print(b.ndim)
+# print(b.shape)
+# new_b = b.reshape(8,2)
+# print(new_b)
+# print(new_b.size)
+# print(new_b.ndim)
+"""sort()"""
+# d = np.array([2,3,1,5,4])
+# print(d)
+# print(np.sort(d))
+"""concatenate()"""
+e = np.array([2,1,0,4,3])
+f = np.array([8,7,6,5,9])
+g = np.concatenate((e,f))
+print(g)
+print(np.sort(g))
